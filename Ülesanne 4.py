@@ -74,7 +74,7 @@ while running:
             while game_over:
                 screen.fill((0, 0, 0))
                 text = font.render("Mäng läbi! Vajuta ENTER, et uuesti alustada", True, (255, 0, 0))
-                screen.blit(text, (WIDTH // 2 - 180, HEIGHT // 2))
+                screen.blit(text, (WIDTH // 2 - 220, HEIGHT // 2))
                 pygame.display.flip()
 
                 for event in pygame.event.get():
@@ -100,3 +100,4 @@ while running:
     clock.tick(60)
 
 pygame.quit()
+
